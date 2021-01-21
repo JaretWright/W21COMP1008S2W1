@@ -12,7 +12,18 @@ public class WarmUpExercises {
 //                System.out.println(i + " Java");
 //            else
 //                System.out.println(i);
-            System.out.println(i%20==0?i + " Java":i);
+            System.out.println( i%20==0? i + " Java" : i);
         }
+
+        //Challenge 4 - make a method
+        System.out.println("\nChallenge 4");
+        System.out.println("timeToSki(31) = " + timeToSki(31));
+        System.out.println("timeToSki(30) = " + timeToSki(30));
+
+    }
+
+    public static boolean timeToSki(int snowDepth)
+    {
+        return snowDepth>30;
     }
 }
